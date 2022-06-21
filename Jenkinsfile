@@ -6,8 +6,8 @@ def defTimestamp = defDateFormat.format(defDate).toString()
 pipeline {
     agent any
     tools {
-            maven 'MAVEN'
-            jdk 'Java8'
+            maven 'M3'
+            jdk 'jdk8.221'
         }
     
     stages {
