@@ -38,7 +38,8 @@ public class DriverProvided2 implements DriverSource {
 		capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
         driver = new ChromeDriver(capabilities);
-      return driver;
+        System.out.println("Driver personalizado");
+        return driver;
        
        
     }
