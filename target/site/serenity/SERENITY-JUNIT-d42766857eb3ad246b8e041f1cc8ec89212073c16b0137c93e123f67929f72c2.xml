@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Feature para el acceso a la aplicacion SeguriSign" skipped="0" tests="1" time="0.76" timestamp="2022-06-21 11:46:33"><testcase name="Validar el correcto acceso al portal SeguriSign"><error message="Could not instantiate new WebDriver instance of type class net.thucydides.core.webdriver.ProvidedDriver (Could not instantiate the custom webdriver provider of type mydriver). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class net.thucydides.core.webdriver.ProvidedDriver (Could not instantiate the custom webdriver provider of type mydriver). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class net.thucydides.core.webdriver.ProvidedDriver (Could not instantiate the custom webdriver provider of type mydriver). See below for more details.&#13;
-sd.test.page.LoginPage.ingresaPagina(LoginPage.java:33)&#13;
-sd.test.step.IngresarPortalFirma.ingresarPortal(IngresarPortalFirma.java:14)&#13;
-sd.test.definition.RealizarLoginDefinition.inicio_la_pagina_del_portal(RealizarLoginDefinition.java:22)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
-org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Feature para el acceso a la aplicacion SeguriSign" skipped="0" tests="1" time="37.09" timestamp="2022-06-21 12:12:58"><testcase name="Validar el correcto acceso al portal SeguriSign"/></testsuite>
