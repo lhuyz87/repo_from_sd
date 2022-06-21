@@ -54,7 +54,7 @@
                         <version>2.22.1</version>
                         <configuration>
                         <includes>
-                                <include>**/**Runner*.*</include>
+                                <include>**/**Runsd*.*</include>
                             </includes>
                             <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                         </configuration>
@@ -72,7 +72,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>*/**Runner*.java</include>
+                        <include>*/**Runsd*.java</include>
                     </includes>
                     <systemProperties>
                     <webdriver.driver>${webdriver.driver}</webdriver.driver>
